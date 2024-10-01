@@ -1,0 +1,292 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0a74da;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #055aa3;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .featured {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .featured h2 {
+            margin: 0;
+        }
+
+        .featured p {
+            margin: 15px 0;
+            font-size: 20px;
+            color: #555;
+        }
+
+        .featured button {
+            background-color: #0a74da;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .featured button:hover {
+            background-color: #055aa3;
+        }
+
+        .packages {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .package {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .package h3 {
+            margin: 15px 0;
+        }
+
+        .package p {
+            color: #888;
+        }
+
+        .package button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .package button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#hero .btn {
+    background: #5cb85c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#products {
+    padding: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #468efa;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 98%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.connect{
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 35%;
+    box-shadow: 4px 4px 16px rgb(3, 46, 75);
+}
+.connect h2{
+    text-align: left;
+}
+.connect table{
+    width: 100%;
+}
+.connect form table tr td input{
+    width: 297px;
+}
+.connect form table tr .btn{
+    text-align: center;  
+}
+.connect form table tr .btn button{
+    width: 200px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.aba{
+    width: 80%;
+    margin-left: 10%;
+}
+.payment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.footer-div{
+    position: absolute;
+    margin-top: 400vh;
+}
+.login-form{
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    box-shadow: 4px 4px 16px rgb(3, 46, 75);
+}
+.login-form h2{
+    text-align: center;
+}
+.login-form table{
+    width: 100%;
+}
+.login-form form table tr td input{
+    width: 420px;
+}
+.login-form form table tr .btn{
+    text-align: center;  
+}
+.login-form form table tr .btn button{
+    width: 200px;
+}
+.social-media{
+   margin-left: 370px;
+}
+.social-media table tr td a{
+    color: #fff;
+}
+.bgimage{
+    margin-top: 300px;
+    opacity: .3;
+    margin-left: 30 0px;
+    width: 1000px;
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+}
